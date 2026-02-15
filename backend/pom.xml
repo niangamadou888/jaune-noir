@@ -20,7 +20,6 @@
     <properties>
         <java.version>17</java.version>
         <springdoc.version>2.5.0</springdoc.version>
-        <hibernate-spatial.version>6.4.4.Final</hibernate-spatial.version>
     </properties>
 
     <dependencies>
@@ -47,13 +46,6 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
-        </dependency>
-
-        <!-- Hibernate Spatial (PostGIS) -->
-        <dependency>
-            <groupId>org.hibernate.orm</groupId>
-            <artifactId>hibernate-spatial</artifactId>
-            <version>${hibernate-spatial.version}</version>
         </dependency>
 
         <!-- OpenAPI / Swagger -->

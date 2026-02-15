@@ -5,7 +5,6 @@ import com.jaunenoir.domain.enums.StatutCourse;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
-import org.locationtech.jts.geom.Point;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -32,11 +31,11 @@ public class Course {
     @JoinColumn(name = "chauffeur_id")
     private Utilisateur chauffeur;
 
-    @Column(columnDefinition = "geometry(Point,4326)")
-    private Point depart;
+    private Double departLatitude;
+    private Double departLongitude;
 
-    @Column(columnDefinition = "geometry(Point,4326)")
-    private Point arrivee;
+    private Double arriveeLatitude;
+    private Double arriveeLongitude;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
