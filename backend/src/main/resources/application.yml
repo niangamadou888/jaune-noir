@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: jaune-noir
+
+  jpa:
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.spatial.dialect.postgis.PostgisPG10Dialect
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: method
+
+server:
+  port: 8080
+  servlet:
+    context-path: /

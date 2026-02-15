@@ -1,0 +1,14 @@
+/Users/niangamadou888/Documents/jaune-noir/backend/src/main/java/com/jaunenoir/JauneNoirApplication.java
+/Users/niangamadou888/Documents/jaune-noir/backend/src/main/java/com/jaunenoir/domain/enums/RoleUtilisateur.java
+/Users/niangamadou888/Documents/jaune-noir/backend/src/main/java/com/jaunenoir/domain/enums/StatutCourse.java
+/Users/niangamadou888/Documents/jaune-noir/backend/src/main/java/com/jaunenoir/infrastructure/config/OpenApiConfig.java
+/Users/niangamadou888/Documents/jaune-noir/backend/src/main/java/com/jaunenoir/domain/entity/Transaction.java
+/Users/niangamadou888/Documents/jaune-noir/backend/src/main/java/com/jaunenoir/domain/entity/Utilisateur.java
+/Users/niangamadou888/Documents/jaune-noir/backend/src/main/java/com/jaunenoir/infrastructure/config/SecurityConfig.java
+/Users/niangamadou888/Documents/jaune-noir/backend/src/main/java/com/jaunenoir/domain/exception/BusinessException.java
+/Users/niangamadou888/Documents/jaune-noir/backend/src/main/java/com/jaunenoir/domain/entity/Course.java
+/Users/niangamadou888/Documents/jaune-noir/backend/src/main/java/com/jaunenoir/infrastructure/config/CorsConfig.java
+/Users/niangamadou888/Documents/jaune-noir/backend/src/main/java/com/jaunenoir/domain/enums/ModePaiement.java
+/Users/niangamadou888/Documents/jaune-noir/backend/src/main/java/com/jaunenoir/web/exception/GlobalExceptionHandler.java
+/Users/niangamadou888/Documents/jaune-noir/backend/src/main/java/com/jaunenoir/domain/entity/Vehicule.java
+/Users/niangamadou888/Documents/jaune-noir/backend/src/main/java/com/jaunenoir/domain/enums/StatutTransaction.java
