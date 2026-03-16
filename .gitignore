@@ -1,0 +1,22 @@
+# Maven
+backend/target/
+**/target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+*.env.local
+application-prod.yml
